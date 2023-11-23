@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins' sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    border: 0;
+    background-color:rgb(108, 117, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: white;
+}
+.navbar a{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navbar a.active, 
+.navbar a:hover{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.home1{
+    text-align: center;
+    padding-top: 10%;
+}
+.home1 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.home1 p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:inherit;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+.home1 .home-sosmed a{
+    font-size: 2em;
+    margin: 5px;
+    color: grey;
+}
+
+#about{
+    background-color: #a3c4f37e;
+}
+.about{
+    margin: 20%;
+    font-size: 20px;
+    padding: 150px;
+    color: black;
+    margin: 10%;
+}
+.about h2{
+    text-align: center;
+    font-family:sans-serif;
+    padding: 50px;
+    font-size: 50px;  
+}
+
+#resume{
+    background-color: #ffffff
+}
+.resume1{
+    text-align: justify;
+    justify-content: center;
+    margin: 10%;
+    line-height: 2;
+    font-size: 20px;
+    padding: 30px;
+
+}
+.resume1 h2{
+    text-align: center;
+    font-family:sans-serif;
+    padding: 15px;
+    font-size: 60px;
+}
+
+#contact{
+    background-color:beige;
+}
+.contact1{
+    text-align: center;
+    padding-bottom: 200px;
+    margin: 20%;;
+    font-family: monospace;
+    font-size: 15px;   
+}
+.contact1 h2{
+    padding: 50px;
+    font-family: monospace;
+    font-size: 60px;
+}
+.contact1 a{
+    font-family: monospace;
+    font-style:italic;
+    font-size: 25px;
+    margin: 10px;
+    color: #380238;
+}
